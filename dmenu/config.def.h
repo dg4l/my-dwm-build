@@ -15,18 +15,6 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeSel] = { "#eeeeee", "#005577" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
-
-static const unsigned int alphas[SchemeLast][2] = {
-	[SchemeNorm] = { OPAQUE, alpha },
-	[SchemeSel] = { OPAQUE, alpha },
-	[SchemeOut] = { OPAQUE, alpha },
-};
-
-static const unsigned int alphas[SchemeLast][2] = {
-	[SchemeNorm] = { OPAQUE, alpha },
-	[SchemeSel] = { OPAQUE, alpha },
-	[SchemeOut] = { OPAQUE, alpha },
-};
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 
