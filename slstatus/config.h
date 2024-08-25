@@ -69,8 +69,8 @@ static const struct arg args[] = {
 	{ ram_perc, "       MEM: [%s%%]",           NULL },
 	{ uptime, "       UPTIME: [%s]",           NULL },
 //	{ temp, "       TEMP: [%s]",           NULL  },
-//	{ netspeed_tx, "       UP: [%s]",           "enp7s0" },
-//	{ netspeed_rx, "       DOWN: [%s]",           "enp7s0" },
-//	{ vol_perc, "       VOL: [%s%%]",           "/dev/mixer" },
+	{ netspeed_tx, "       UP: [%s]",           "wlan0" },
+	{ netspeed_rx, "       DOWN: [%s]",           "wlan0" },
+	{ battery_perc, "       BAT: [%s%%]",           "BAT0" },
 	{ datetime, "       %s",           "%F %T" },
 };
